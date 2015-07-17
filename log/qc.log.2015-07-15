@@ -1,0 +1,582 @@
+2015-07-15 09:20:37,302-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 09:20:37,323-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 09:20:37,323-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 09:20:37,323-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 09:20:38,785-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 09:20:38,796-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 09:20:38,923-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 09:20:38,933-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 09:21:06,592-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :547ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findAll()
+2015-07-15 09:21:18,856-[TS] INFO http-bio-8080-exec-3 org.zhubao.aop.CacheAop - Operation time :10ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findAll()
+2015-07-15 09:21:30,796-[TS] INFO http-bio-8080-exec-5 org.zhubao.aop.CacheAop - Operation time :10ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findAll()
+2015-07-15 09:23:17,999-[TS] INFO http-bio-8080-exec-7 org.zhubao.aop.CacheAop - Operation time :10ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findByName()
+2015-07-15 09:24:14,295-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 09:24:14,305-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 09:24:14,305-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 09:24:14,305-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 09:24:14,715-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 09:24:14,715-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 09:24:14,839-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 09:24:14,839-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 09:24:20,877-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :227ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : getUsers()
+2015-07-15 14:09:00,412-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 14:09:00,422-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 14:09:00,422-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 14:09:00,433-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 14:09:01,832-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 14:09:01,845-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 14:09:01,986-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 14:09:01,996-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 14:09:02,590-[TS] ERROR localhost-startStop-1 org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [C:\Users\jason.zhu\workspace\platform\target\classes\org\zhubao\service\impl\UserServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'redisTemplate' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redis_template_factory' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'factory' of bean class [org.zhubao.config.CustomizeRedisTemplate]: Bean property 'factory' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:725)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'redisTemplate' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redis_template_factory' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'factory' of bean class [org.zhubao.config.CustomizeRedisTemplate]: Bean property 'factory' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1471)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.aop.support.AbstractBeanFactoryPointcutAdvisor.getAdvice(AbstractBeanFactoryPointcutAdvisor.java:88)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.isAspectJAdvice(AspectJProxyUtils.java:67)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.makeAdvisorChainAspectJCapableIfNecessary(AspectJProxyUtils.java:49)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.extendAdvisors(AspectJAwareAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:328)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:540)
+	... 20 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'redisTemplate' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redis_template_factory' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'factory' of bean class [org.zhubao.config.CustomizeRedisTemplate]: Bean property 'factory' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:140)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:505)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redis_template_factory' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'factory' of bean class [org.zhubao.config.CustomizeRedisTemplate]: Bean property 'factory' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:505)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 52 more
+Caused by: org.springframework.beans.NotWritablePropertyException: Invalid property 'factory' of bean class [org.zhubao.config.CustomizeRedisTemplate]: Bean property 'factory' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.BeanWrapperImpl.setPropertyValue(BeanWrapperImpl.java:1065)
+	at org.springframework.beans.BeanWrapperImpl.setPropertyValue(BeanWrapperImpl.java:923)
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:95)
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:75)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1504)
+	... 69 more
+2015-07-15 14:10:17,545-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 14:10:17,555-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 14:10:17,555-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 14:10:17,555-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 14:10:17,877-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 14:10:17,887-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 14:10:18,009-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 14:10:18,009-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 14:10:31,656-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :586ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : getUsers()
+2015-07-15 14:11:23,867-[TS] INFO http-bio-8080-exec-4 org.zhubao.aop.CacheAop - Operation time :1ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findByName()
+2015-07-15 14:50:49,402-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 14:50:49,412-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 14:50:49,414-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 14:50:49,416-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 14:50:49,739-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 14:50:49,749-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 14:50:49,868-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 14:50:49,873-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 14:51:15,631-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :281ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : saveUser()
+2015-07-15 14:53:58,574-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 14:53:58,584-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 14:53:58,584-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 14:53:58,584-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 14:53:58,906-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 14:53:58,916-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 14:53:59,036-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 14:53:59,036-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 14:54:05,638-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :138ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : saveUser()
+2015-07-15 14:54:18,447-[TS] INFO http-bio-8080-exec-3 org.zhubao.aop.CacheAop - Operation time :0ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findByName()
+2015-07-15 15:35:38,483-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 15:35:38,504-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 15:35:38,507-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 15:35:38,509-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 15:35:39,563-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 15:35:39,578-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 15:35:39,731-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 15:35:39,741-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 15:54:03,910-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 15:54:03,936-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 15:54:03,936-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 15:54:03,936-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 15:54:03,958-[TS] INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.xml
+2015-07-15 15:54:03,958-[TS] INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.xml
+2015-07-15 15:54:04,329-[TS] WARN main org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-07-15 15:56:15,154-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 15:56:15,166-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 15:56:15,170-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 15:56:15,171-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 15:56:15,196-[TS] INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.xml
+2015-07-15 15:56:15,196-[TS] INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.xml
+2015-07-15 15:56:15,251-[TS] WARN main org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-07-15 15:56:15,284-[TS] INFO main org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2015-07-15 15:56:15,299-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-07-15 15:56:15,667-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2015-07-15 15:56:15,802-[TS] WARN main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-07-15 15:56:15,833-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/platform]
+2015-07-15 15:56:15,834-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, characterEncoding=utf-8, pool.size=20}
+2015-07-15 15:56:15,834-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2015-07-15 15:56:15,836-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-07-15 15:56:16,497-[TS] ERROR main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table Article drop foreign key FK_eyqftllrdjr1hpb3rf4x4dfdh
+2015-07-15 15:56:16,501-[TS] ERROR main org.hibernate.tool.hbm2ddl.SchemaExport - Table 'platform.article' doesn't exist
+2015-07-15 15:56:17,981-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/platform]
+2015-07-15 15:56:17,984-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2015-07-15 16:20:14,205-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@64d5427] to prepare test instance [org.zhubao.dao.TestArticleDao@3ecfcfac]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:74)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:116)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:82)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:199)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:251)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:253)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:216)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:82)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:60)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:67)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:162)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleDaoImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.zhubao.dao.impl.BaseDaoImpl.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-test.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:725)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:260)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:63)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:83)
+	... 25 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.zhubao.dao.impl.BaseDaoImpl.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-test.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:555)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-test.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:336)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1471)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1081)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1006)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:904)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:527)
+	... 43 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1568)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	... 56 more
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.lookup(Unknown Source)
+	at org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:155)
+	at org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:87)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:152)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:179)
+	at org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:95)
+	at org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:106)
+	at org.springframework.jndi.JndiObjectFactoryBean.lookupWithFallback(JndiObjectFactoryBean.java:231)
+	at org.springframework.jndi.JndiObjectFactoryBean.afterPropertiesSet(JndiObjectFactoryBean.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)
+	... 63 more
+2015-07-15 16:25:43,928-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e81fbf] to prepare test instance [org.zhubao.dao.TestArticleDao@77c3510]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:74)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:116)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:82)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:199)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:251)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:253)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:216)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:82)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:60)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:67)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:162)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 44 in XML document from class path resource [applicationContext-test.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 44; columnNumber: 70; cvc-complex-type.2.4.a: 发现了以元素 'bean' 开头的无效内容。应以 '{"http://www.springframework.org/schema/beans":beans}' 之一开头。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:253)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:260)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:63)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:83)
+	... 25 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 44; columnNumber: 70; cvc-complex-type.2.4.a: 发现了以元素 'bean' 开头的无效内容。应以 '{"http://www.springframework.org/schema/beans":beans}' 之一开头。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 38 more
+2015-07-15 16:27:19,499-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:27:19,509-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:27:19,511-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:27:19,514-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:27:19,849-[TS] WARN main org.hibernate.engine.jdbc.internal.JdbcServicesImpl - HHH000342: Could not obtain connection to query metadata : Unknown database 'banker'
+2015-07-15 16:27:19,859-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:27:19,868-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000422: Disabling contextual LOB creation as connection was null
+2015-07-15 16:27:20,014-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:27:20,020-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:33:05,791-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:33:05,801-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:33:05,804-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:33:05,805-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:33:06,089-[TS] WARN main org.hibernate.engine.jdbc.internal.JdbcServicesImpl - HHH000342: Could not obtain connection to query metadata : Unknown database 'banker'
+2015-07-15 16:33:06,099-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:33:06,109-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000422: Disabling contextual LOB creation as connection was null
+2015-07-15 16:33:06,251-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:33:06,257-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:33:07,722-[TS] WARN main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1049, SQLState: 42000
+2015-07-15 16:33:07,723-[TS] ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown database 'banker'
+2015-07-15 16:33:33,554-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:33:33,565-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:33:33,567-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:33:33,569-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:33:33,914-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:33:33,923-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:33:34,065-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:33:34,070-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:33:35,757-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 55.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:34:41,916-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:34:41,926-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:34:41,926-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:34:41,926-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:34:42,252-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:34:42,262-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:34:42,402-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:34:42,402-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:34:43,923-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 55.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:34:59,539-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:34:59,549-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:34:59,549-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:34:59,549-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:34:59,880-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:34:59,890-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:35:00,020-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:35:00,030-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:35:01,553-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 55.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:43:17,843-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:43:17,852-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:43:17,854-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:43:17,856-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:43:18,191-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:43:18,201-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:43:18,334-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:43:18,334-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:43:19,886-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 80.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:43:19,886-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 97.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:45:22,447-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:45:22,457-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:45:22,460-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:45:22,462-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:45:22,803-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:45:22,812-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:45:22,952-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:45:22,958-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:45:24,572-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:45:24,574-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 106.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:47:25,809-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:47:25,818-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:47:25,821-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:47:25,823-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:47:26,149-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:47:26,167-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:47:26,303-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:47:26,308-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:47:27,816-[TS] ERROR main org.hibernate.hql.internal.ast.ErrorCounter - line 1:44: expecting "join", found 'FETCH'
+2015-07-15 16:47:27,817-[TS] ERROR main org.hibernate.hql.internal.ast.ErrorCounter - line 1:44: expecting "join", found 'FETCH'
+line 1:44: expecting "join", found 'FETCH'
+	at antlr.Parser.match(Parser.java:211)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromJoin(HqlBaseParser.java:1644)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClause(HqlBaseParser.java:1380)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1086)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:731)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:295)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:203)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:126)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:88)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1800)
+	at org.zhubao.dao.impl.ArticleDaoImpl.findByUserId(ArticleDaoImpl.java:21)
+	at org.zhubao.dao.impl.ArticleDaoImpl$$FastClassBySpringCGLIB$$7ae9953.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:266)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at org.zhubao.dao.impl.ArticleDaoImpl$$EnhancerBySpringCGLIB$$7887f966.findByUserId(<generated>)
+	at org.zhubao.dao.TestArticleDao.testFindArticlesByUserId(TestArticleDao.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:72)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:81)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:216)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:82)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:60)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:67)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:162)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-07-15 16:48:00,367-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:48:00,377-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:48:00,380-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:48:00,382-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:48:00,742-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:48:00,752-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:48:00,899-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:48:00,904-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:48:02,566-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 81.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:48:02,568-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 98.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 16:48:57,192-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 16:48:57,202-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 16:48:57,205-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 16:48:57,206-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 16:48:57,570-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 16:48:57,580-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 16:48:57,732-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 16:48:57,738-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 16:48:59,415-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 17:32:55,936-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 17:32:55,983-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 17:32:55,986-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 17:32:55,988-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 17:32:57,587-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 17:32:57,602-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 17:32:57,837-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 17:32:57,853-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 17:34:46,259-[TS] ERROR http-bio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.service.ArticleService org.zhubao.controller.ArticleController.articleService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.zhubao.service.ArticleService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:725)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.service.ArticleService org.zhubao.controller.ArticleController.articleService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.zhubao.service.ArticleService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:555)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 34 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.zhubao.service.ArticleService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1261)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1009)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:904)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:527)
+	... 36 more
+2015-07-15 17:35:32,978-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 17:35:32,987-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 17:35:32,990-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 17:35:32,992-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 17:35:33,313-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 17:35:33,322-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 17:35:33,476-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 17:35:33,481-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 17:35:38,617-[TS] WARN http-bio-8080-exec-1 org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 17:35:39,185-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :716ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : findArticlesByUserId()
+2015-07-15 17:36:23,950-[TS] INFO http-bio-8080-exec-3 org.zhubao.aop.CacheAop - Operation time :47ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findById()
+2015-07-15 17:36:24,181-[TS] INFO http-bio-8080-exec-3 org.zhubao.aop.CacheAop - Operation time :229ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : addArticle()
+2015-07-15 17:37:45,255-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-15 17:37:45,264-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-15 17:37:45,267-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-15 17:37:45,269-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-15 17:37:45,595-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-15 17:37:45,605-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-15 17:37:45,759-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-15 17:37:45,764-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-15 17:37:53,118-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :119ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findById()
+2015-07-15 17:37:53,193-[TS] INFO http-bio-8080-exec-1 org.zhubao.aop.CacheAop - Operation time :67ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : addArticle()
+2015-07-15 17:38:03,516-[TS] WARN http-bio-8080-exec-2 org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-15 17:38:03,542-[TS] INFO http-bio-8080-exec-2 org.zhubao.aop.CacheAop - Operation time :132ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : findArticlesByUserId()
+2015-07-15 17:38:20,680-[TS] INFO http-bio-8080-exec-5 org.zhubao.aop.CacheAop - Operation time :3ms; Class name : org.zhubao.service.impl.UserServiceImpl ; Method name : findById()
+2015-07-15 17:38:20,726-[TS] INFO http-bio-8080-exec-5 org.zhubao.aop.CacheAop - Operation time :44ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : addArticle()
+2015-07-15 17:38:28,454-[TS] INFO http-bio-8080-exec-6 org.zhubao.aop.CacheAop - Operation time :5ms; Class name : org.zhubao.service.impl.ArticleServiceImpl ; Method name : findArticlesByUserId()

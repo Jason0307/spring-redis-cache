@@ -1,0 +1,24 @@
+<!DOCTYPE hibernate-configuration PUBLIC 
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver </property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/platform</property>
+		<property name="hibernate.connection.username">jasonzhu</property>
+		<property name="hibernate.connection.password">123456</property>
+		<property name="hibernate.connection.pool.size">20</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="jdbc.fetch_size">50</property>
+		<property name="jdbc.batch_size">23</property>
+		<property name="jdbc.use_scrollable_resultset">false</property>
+		<property name="Connection.useUnicode">true</property>
+		<property name="connection.characterEncoding">utf-8</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<mapping class="org.zhubao.model.User" />
+		<mapping class="org.zhubao.model.Article" />
+
+	</session-factory>
+</hibernate-configuration>   

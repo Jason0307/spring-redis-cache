@@ -1,0 +1,82 @@
+2015-07-17 14:32:56,211-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-17 14:32:56,242-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-17 14:32:56,302-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-17 14:32:56,342-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-17 14:32:58,167-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-17 14:32:58,177-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-17 14:32:58,358-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-17 14:32:58,358-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-17 14:41:18,724-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-17 14:41:18,724-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-17 14:41:18,734-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-17 14:41:18,734-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-17 14:41:19,055-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-17 14:41:19,065-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-17 14:41:19,215-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-17 14:41:19,225-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-17 14:41:20,885-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-17 14:41:21,781-[TS] INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.xml
+2015-07-17 14:41:21,781-[TS] INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.xml
+2015-07-17 14:41:21,861-[TS] WARN main org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-07-17 14:41:21,951-[TS] INFO main org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2015-07-17 14:41:21,961-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-07-17 14:41:21,981-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2015-07-17 14:41:22,002-[TS] WARN main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-07-17 14:41:22,002-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:41:22,002-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, characterEncoding=utf-8, pool.size=20}
+2015-07-17 14:41:22,002-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2015-07-17 14:41:22,002-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-07-17 14:41:23,243-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:41:23,243-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2015-07-17 14:49:46,120-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-17 14:49:46,129-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-17 14:49:46,131-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-17 14:49:46,133-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-17 14:49:46,448-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-17 14:49:46,458-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-17 14:49:46,612-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-17 14:49:46,618-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-17 14:49:48,201-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-17 14:49:48,296-[TS] INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.xml
+2015-07-17 14:49:48,296-[TS] INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.xml
+2015-07-17 14:49:48,333-[TS] WARN main org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-07-17 14:49:48,351-[TS] INFO main org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2015-07-17 14:49:48,352-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-07-17 14:49:48,361-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2015-07-17 14:49:48,372-[TS] WARN main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-07-17 14:49:48,374-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:49:48,375-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, characterEncoding=utf-8, pool.size=20}
+2015-07-17 14:49:48,375-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2015-07-17 14:49:48,376-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-07-17 14:49:49,146-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:49:49,147-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2015-07-17 14:55:34,237-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-17 14:55:34,247-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-17 14:55:34,247-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-17 14:55:34,247-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-17 14:55:34,579-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-17 14:55:34,588-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-17 14:55:34,746-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-17 14:55:34,746-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2015-07-17 14:55:36,396-[TS] WARN main org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 79.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2015-07-17 14:55:36,493-[TS] INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.xml
+2015-07-17 14:55:36,493-[TS] INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.xml
+2015-07-17 14:55:36,523-[TS] WARN main org.hibernate.internal.util.xml.DTDEntityResolver - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-07-17 14:55:36,543-[TS] INFO main org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2015-07-17 14:55:36,543-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-07-17 14:55:36,553-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2015-07-17 14:55:36,563-[TS] WARN main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-07-17 14:55:36,563-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:55:36,563-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, characterEncoding=utf-8, pool.size=20}
+2015-07-17 14:55:36,563-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2015-07-17 14:55:36,563-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-07-17 14:55:37,445-[TS] INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/platform]
+2015-07-17 14:55:37,445-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2015-07-17 14:57:26,338-[TS] INFO localhost-startStop-1 org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-17 14:57:26,349-[TS] INFO localhost-startStop-1 org.hibernate.Version - HHH000412: Hibernate Core {4.3.6.Final}
+2015-07-17 14:57:26,352-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2015-07-17 14:57:26,354-[TS] INFO localhost-startStop-1 org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2015-07-17 14:57:26,725-[TS] INFO localhost-startStop-1 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-07-17 14:57:26,735-[TS] INFO localhost-startStop-1 org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-07-17 14:57:26,896-[TS] INFO localhost-startStop-1 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-07-17 14:57:26,906-[TS] INFO localhost-startStop-1 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
